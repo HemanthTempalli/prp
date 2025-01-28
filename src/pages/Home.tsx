@@ -83,16 +83,19 @@ const FEATURED_RECIPES = [
     imageUrl: 'https://images.unsplash.com/photo-1606491956689-2ea866880c84?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
     cuisine: 'Maharashtra'
   },
+  
+  
   {
-    id: '9',
-    title: 'Malai Kofta',
-    description: 'Paneer and potato dumplings in rich creamy gravy',
-    cookingTime: 60,
-    servings: 4,
-    difficulty: 'hard',
-    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    cuisine: 'North Indian'
+    "id": "10",
+    "title": "Butter Chicken",
+    "description": "Tender chicken cooked in a creamy tomato-based sauce with spices",
+    "cookingTime": 45,
+    "servings": 4,
+    "difficulty": "medium",
+    "imageUrl": "https://images.unsplash.com/photo-1589302927012-328c5fd130bc?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg5OHwwfDF8c2VhY2h8MXx8YnV0dGVyJTIwY2hpa2VuJTIwY3VsdHVyZXxlbnwwfHx8fDE2NDY2Nzg5MTU&ixlib=rb-1.2.1&q=80&w=400",
+    "cuisine": "North Indian"
   }
+  
 ];
 
 const Home = () => {
